@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    background-image: linear-gradient(
+    #00ff9d);
+    background-attachment: fixed;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom
+        , #106b3a, #0b4a28);
+    color: white;
+    text-align: center;
+    padding: 50px 20px 30px 20px;
+}
+
+nav {
+
+    border-radius: 5px;
+    padding: 1px 10px;
+    margin-bottom: 10px;
+    
+}
+
+nav > a {
+    
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    font-weight: bold;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+nav > a:hover{
+    text-decoration: solid ;
+    background-color: #006b4b;
+}
+
+
+.container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.container > h1 {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}
+
+main {
+    background-color: rgb(124, 123, 123);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.486);
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+header > h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5rem;
+    font-weight: normal;
+    
+    transform: scaleY(1.3px);
+    transform-origin: center;
+
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+header > p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Peso leve para o texto */
+    font-size: 1.2rem;
+    
+    max-width: 600px; /* Limita a largura do texto para não esticar muito */
+    margin: 0 auto; /* Centraliza o bloco do parágrafo */
+    margin-bottom: 40px; /* Espaço para o menu abaixo */
+}
+
+header > nav {
+    background-color: #0b4a28; /* Verde mais escuro do que o header */
+    width: 100%; /* Largura total da barra de menu */
+    
+    padding: 12px 20px; /* Espaço interno para a barra */
+    text-align: left; /* Centraliza horizontalmente o menu */
+    
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra suave para o menu */
+}
+
+header > nav > a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #e5f1eb; /* Cor verde-clara para os links não visitados */
+    font-weight: bold; /* Peso negrito para o menu */
+    font-size: 1rem;
+    
+    padding: 10px 15px; /* Espaço entre os links */
+    border-radius: 5px; /* Bordas arredondadas nos cantos */
+    transition: background-color 0.3s ease; /* Animação suave no hover */
+}
+
+header > nav > a:hover {
+    background-color: #106b3a; /* Fundo verde mais claro no hover */
+    color: white; /* Texto branco puro no hover */
+}
+
+h1, h2 {
+    font-family: 'idroid';
+
+}
+
+p{
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+
+article {
+    background-color: lightgray;
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    padding: 1px 33px;
+}
+
+article > aside {
+    background-color: rgb(51, 56, 55);
+    border-radius: 5px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin:10px;
+}
